@@ -36,19 +36,7 @@
     class="hero"
     data-theme="dark"
   >
-    <nav class="container-fluid">
-      <ul>
-        <li>
-          <a
-            href="https://www.youtube.com/c/RegisdoPython/videos"
-            class="contrast"
-          ><strong>Regis do Python</strong></a>
-        </li>
-        <li>
-          <a href="{% url 'expense:expense_list' %}">Despesas</a>
-        </li>
-      </ul>
-    </nav>
+    {% include 'partials/nav.html' %}
     <header class="container">
       <hgroup>
         <h1>Despesas</h1>
@@ -71,10 +59,7 @@
   <!-- ./ Main -->
 
   <!-- Footer -->
-  <footer class="container">
-    <small>Built with <a href="https://picocss.com">Pico</a> •
-      <a href="https://github.com/picocss/examples/tree/master/v1-company/">Source code</a></small>
-  </footer>
+  {% include 'partials/footer.html' %}
   <!-- ./ Footer -->
 
   {% block js %}{% endblock js %}
