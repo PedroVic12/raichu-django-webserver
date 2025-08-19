@@ -10,12 +10,16 @@ import google.generativeai as genai
 import io
 import pytesseract
 from pdf2image import convert_from_path
-#from tabula.errors import JavaNotFoundError
+from typing import List, Dict, Optional, Union
+import camelot
+
+# Import PowerQuery classes
+from ClassPowerQuery import MiniPowerQuery
 
 # Carregar variáveis de ambiente
-from dotenv import load_dotenv
+#from dotenv import load_dotenv
 
-load_dotenv()
+#load_dotenv()
 
 # --- Funções de Lógica de Negócio ---
 
@@ -65,21 +69,94 @@ def extrair_texto_ocr(caminho_arquivo, num_pagina):
         st.warning("Certifique-se de que Tesseract e Poppler estão instalados.")
         return ""
 
-def extrair_tabelas_tabula(caminho_arquivo, paginas_str):
-    """Extrai tabelas de um PDF usando Tabula."""
+def extrair_tabelas_avancado(caminho_arquivo, paginas_str, use_powerquery=True):
+    """
+    Extrai tabelas de um PDF usando múltiplas estratégias.
+    
+    Args:
+        caminho_arquivo: Caminho para o arquivo PDF
+        paginas_str: Páginas para processar (ex: '6-9', 'all')
+        use_powerquery: Se True, aplica limpeza avançada nas tabelas
+            - Remove linhas/colunas vazias
+            - Remove duplicatas
+            - Ajusta espaçamento
+            - Corrige cabeçalhos
+        
+    Returns:
+        Lista de DataFrames com as tabelas extraídas
+    """
     try:
-        tabelas = tabula.read_pdf(caminho_arquivo, pages=paginas_str, multiple_tables=True, stream=True)
-        if not tabelas:
-            st.info("Nenhuma tabela foi encontrada nas páginas especificadas.")
+        # Tenta extrair com Camelot primeiro (melhor para tabelas bem formatadas)
+        try:
+            tables = camelot.read_pdf(
+                caminho_arquivo,
+                pages=paginas_str,
+                flavor='lattice',
+                strip_text='\n'
+            )
+            if tables:
+                if use_powerquery:
+                    return [processar_tabela_com_powerquery(table.df) for table in tables]
+                return [table.df for table in tables]
+        except Exception as e:
+            st.warning(f"Aviso ao usar Camelot: {str(e)}")
+        
+        # Se Camelot falhar, tenta com Tabula
+        try:
+            tabelas = tabula.read_pdf(
+                caminho_arquivo,
+                pages=paginas_str,
+                multiple_tables=True,
+                stream=True,
+                lattice=False,
+                pandas_options={'header': None}
+            )
+            
+            if not tabelas:
+                st.info("Nenhuma tabela foi encontrada nas páginas especificadas.")
+                return []
+                
+            if use_powerquery:
+                return [processar_tabela_com_powerquery(df) for df in tabelas]
+            return tabelas
+            
+        except JavaNotFoundError:
+            st.error("Erro: Java não encontrado! O Tabula precisa do Java para funcionar.")
+            st.warning("Por favor, instale o Java (JRE) em seu sistema e verifique se ele está no PATH.")
             return []
-        return tabelas
-    except JavaNotFoundError:
-        st.error("Erro: Java não encontrado! O Tabula precisa do Java para funcionar.")
-        st.warning("Por favor, instale o Java (JRE) em seu sistema e verifique se ele está no PATH.")
-        return None
+            
     except Exception as e:
         st.error(f"Ocorreu um erro inesperado ao extrair as tabelas: {e}")
-        return None
+        return []
+
+def processar_tabela_com_powerquery(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Processa um DataFrame usando MiniPowerQuery para limpeza e formatação.
+    """
+    # Cria um arquivo temporário para o MiniPowerQuery processar
+    with tempfile.NamedTemporaryFile(suffix='.csv', delete=False) as tmp:
+        temp_path = tmp.name
+        df.to_csv(temp_path, index=False)
+    
+    try:
+        # Processa com MiniPowerQuery
+        mpq = MiniPowerQuery(temp_path)
+        (mpq
+         .trim_spaces()
+         .drop_nulls(how='all')
+         .drop_duplicates()
+         .preview()
+        )
+        return mpq.df
+    except Exception as e:
+        st.warning(f"Aviso ao processar tabela com PowerQuery: {str(e)}")
+        return df
+    finally:
+        # Remove o arquivo temporário
+        try:
+            os.unlink(temp_path)
+        except:
+            pass
 
 # --- Funções Auxiliares ---
 
@@ -108,7 +185,7 @@ def df_to_excel_bytes(df):
 # --- Interface Principal do Streamlit ---
 
 def main():
-    st.set_page_config(layout="wide")
+    st.set_page_config(layout="wide", page_icon="📄", page_title="Extrator de Dados de PDF", initial_sidebar_state="expanded")
     st.title("📄 Extrator de Dados de PDF")
 
     # Inicializar session state
@@ -188,11 +265,31 @@ def main():
             st.text_area("Texto Extraído por OCR", st.session_state.texto_extraido, height=300)
 
     with tab3:
-        st.header("Extrair Tabelas com Tabula")
-        paginas_tabula = st.text_input("Páginas (ex: 1-3,5 ou 'all')", value='all', key="tabula_pages")
+        st.header("Extrair Tabelas")
+        col1, col2 = st.columns(2)
+        with col1:
+            paginas_tabula = st.text_input(
+                "Páginas (ex: 6-9 ou 'all')", 
+                value='6-9',
+                key="tabula_pages",
+                help="Especifique o intervalo de páginas para extração. Ex: '6-9' para páginas 6 a 9"
+            )
+        with col2:
+            use_powerquery = st.checkbox("Usar PowerQuery", value=True, 
+                help="""Ativa o processamento avançado de tabelas:
+                • Remove linhas/colunas vazias
+                • Remove duplicatas
+                • Ajusta espaçamento
+                • Corrige cabeçalhos
+                • Padroniza formatos""")
+            
         if st.button("Extrair Tabelas", key="b_tabula"):
             with st.spinner("Extraindo tabelas..."):
-                tabelas = extrair_tabelas_tabula(st.session_state.caminho_arquivo_temp, paginas_tabula)
+                tabelas = extrair_tabelas_avancado(
+                    st.session_state.caminho_arquivo_temp, 
+                    paginas_tabula,
+                    use_powerquery=use_powerquery
+                )
                 if tabelas is not None:
                     st.session_state.tabelas_extraidas = tabelas
                     st.session_state.merged_df = pd.DataFrame()
