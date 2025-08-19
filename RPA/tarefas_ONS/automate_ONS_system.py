@@ -23,6 +23,8 @@ from ClassPowerQuery import MiniPowerQuery
 
 # --- Funções de Lógica de Negócio ---
 
+PROMPT_USER = "Pegue o texto extraido do arquivo PDF e separe as informações em cada tabelas MUST e sua numeração no documento"
+
 def gerar_resumo_com_gemini(texto):
     modelo = "gemini-2.5-pro"
     """Gera um resumo de um texto usando a API do Gemini."""
@@ -31,7 +33,7 @@ def gerar_resumo_com_gemini(texto):
         #genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
         genai.configure(api_key="AIzaSyBMz4dNUD9FVFE7P7K_PD6I9URFm1REPy8")
         model = genai.GenerativeModel(modelo)
-        prompt = f"Resuma o seguinte texto em português, formatando o resumo em Markdown:\n\n{texto}"
+        prompt = f"{PROMPT_USER}\n\n{texto}"
         response = model.generate_content(prompt)
         return response.text if response and response.text else "Não foi possível gerar um resumo."
     except Exception as e:

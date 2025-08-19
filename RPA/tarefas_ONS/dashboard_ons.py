@@ -132,11 +132,7 @@ if __name__ == "__main__":
     # Adiciona o diretório atual ao path para importações
     sys.path.append(str(Path(__file__).parent))
     
-    # Executa o Streamlit
-    import streamlit.cli as stcli
-    
-    if st._is_running_with_streamlit:
-        main()
-    else:
-        sys.argv = ["streamlit", "run", str(Path(__file__).absolute())]
-        sys.exit(stcli.main())
+
+
+    main()
+

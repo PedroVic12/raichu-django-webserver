@@ -112,27 +112,12 @@ def main():
     # Adicionar dados do PowerQuery
     if not df_powerquery.empty:
         excel.adicionar_planilha("Dados PowerQuery")
-        excel.selecionar_planilha("Dados PowerQuery")
-        
-        # Escreve cabeçalhos
-        for col, valor in enumerate(df_powerquery.columns, 1):
-            excel.escrever_celula(
-                f"{chr(64+col)}1",
-                str(valor)
-            )
-        
-        # Escreve dados
-        for i, linha in df_powerquery.iterrows():
-            for col, valor in enumerate(linha, 1):
-                excel.escrever_celula(
-                    f"{chr(64+col)}{i+2}",
-                    str(valor) if pd.notna(valor) else ""
-                )
+        excel.escrever_dataframe("A1", df_powerquery)
     
     # Adicionar texto extraído
     excel.adicionar_planilha("Texto Extraído")
-    excel.escrever_celula("A1", "Texto de todas as páginas")
-    excel.ajustar_largura_colunas()  # Ajustar largura da coluna
+    excel.escrever_celula("A1", "Texto das Páginas 6-9")
+    excel.ajustar_largura_coluna("A", 100)  # Ajustar largura da coluna
     excel.escrever_celula("A2", texto_extraido)
     
     # Salvar relatório

@@ -1,0 +1,501 @@
+ 
+ 
+CUST -2002-121-40 – ELETROPAULO                                           
+Contrato assinado digitalmente  
+7 Tabela 01 - MUST para os anos de 2025 a 2028  
+Sem considerar as novas instalações de transmissão previstas que permitem a inserção ou a alteração de pontos de conexão da U SUÁRIA conforme a Cláusula 3ª do presente Aditivo  
+ 
+Ponto de Conexão  Período de 
+Contratação  MUST - 2025  MUST - 2026  MUST - 2027  MUST - 2028  
+Cód ONS¹  Instalação  Tensão 
+(kV) De Até Ponta 
+(MW)  Fora 
+Ponta 
+(MW)  Ponta 
+(MW)  Fora 
+Ponta 
+(MW)  Ponta 
+(MW)  Fora 
+Ponta 
+(MW)  Ponta 
+(MW)  Fora 
+Ponta 
+(MW)  
+SPANH -88--A ANHANGUERA - 88 kV (C)                        88 1/Jan  31/Dez  630,260 621,226(C) 631,000 622,000(C) 631,000 622,000(C) 631,000 622,000(C) 
+SPBAN -34,5  BANDEIRANTES - 34,5 kV 
+(A)                    34 1/Jan  30/Jun  212,742 241,306(E) - - - - - - 
+SPBAN -34,5  BANDEIRANTES - 34,5 kV 
+(A)                    34 1/Jul  31/Dez  212,742 235,923(A) 
+(E) - - - - - - 
+SPBAN -34,5  BANDEIRANTES - 34,5 kV 
+(A)                    34 1/Jan  31/Dez  - - 212,000 233,000(A) 
+(E) 212,000 233,000(A) 
+(E) 212,000 233,000(E) 
+SPCTR -20    CENTRO -CTR - 20 kV (A)                        20 1/Jan  31/Dez  120,574 138,215(E) 120,000 138,000(E) 120,000 138,000(E) 120,000 138,000(E) 
+SPCTR -88    CENTRO -CTR - 88 kV (A)                        88 1/Jan  31/Dez  168,451 200,405(E) 164,000 200,000(E) 164,000 200,000(E) 164,000 200,000(E) 
+SPBANC88 --A ECH BANDEIRAN - 88 kV (A)                     88 1/Jan  30/Jun  799,450 830,201(E) - - - - - - 
+SPBANC88 --A ECH BANDEIRAN - 88 kV (A)                     88 1/Jul  31/Dez  799,450 827,203(A) 
+(E) - - - - - - 
+SPBANC88 --A ECH BANDEIRAN - 88 kV (A)                     88 1/Jan  31/Dez  - - 799,000 820,000(E) 799,000 820,000(E) 799,000 820,000(E) 
+SPESO -88    EDGARD SOUZA - 88 kV (A)                      88 1/Jan  31/Dez  300,000 302,000(D) 334,000 302,000(B) 
+(F) 334,000 302,000(B) 
+(F) 334,000 302,000(B) 
+(F) 
+SPEMG -138   EMBU -GUACU - 138 kV (C)                       138 1/Jan  31/Dez  313,868 310,544(E) 305,000 301,000(E) 305,000 301,000(E) 305,000 301,000(E) 
+SPJAN -88--A JANDIRA - 88 kV (A)                           88 1/Jan  31/Dez  587,370 574,964(E) 580,000 551,000(E) 580,000 551,000(E) 580,000 551,000(E) 
+SPLES -88    LESTE - 88 kV (A)                             88 1/Jan  31/Dez  751,682 716,961(E) 750,000 716,000(E) 750,000 716,000(E) 750,000 716,000(E) 
+SPMFO -88    M. FORNASARO - 88 kV (A)                      88 1/Jan  31/Dez  759,893(G) 795,939(G) 749,000(G) 793,000(G) 749,000(G) 793,000(G) 749,000(G) 793,000(G) 
+SPMRE -20    MIGUEL REALE - 20 kV (A)                      20 1/Jan  31/Dez  80,796 91,265(E) 81,000 91,000(E) 81,000 91,000(A) 
+(E) 81,000 91,000(E) 
+SPMRE -88--A MIGUEL REALE - 88 kV (A)                      88 1/Jan  30/Jun  203,585 211,043(E) - - - - - - 
+SPMRE -88--A MIGUEL REALE - 88 kV (A)                      88 1/Jul  31/Dez  199,323(A) 211,043(E) - - - - - - 
+SPMRE -88--A MIGUEL REALE - 88 kV (A)                      88 1/Jan  31/Dez  - - 193,000(A) 211,000(E) 193,000 211,000(E) 193,000 211,000(E) 
+SPNOD -88    NORDESTE - 88 kV (A)                          88 1/Jan  31/Dez  220,596 220,263(E) 215,000 215,000(E) 215,000 215,000(A) 
+(E) 215,000 215,000(E) 
+SPNOR -88    NORTE - 88 kV (A)                             88 1/Jan  31/Dez  620,811 620,275(E) 600,000 610,000(E) 600,000 610,000(E) 600,000 610,000(E) 
+SPPRE -138   PARELHEIROS - 138 kV (A)                      138 1/Jan  31/Dez  55,703 57,004(E) 55,000 57,000(E) 55,000 57,000(E) 55,000 57,000(E) 
+SPPIR -88    PIRATININGA - 88 kV (A)                       88 1/Jan  31/Dez  241,723 236,717(E) 241,000 236,000(E) 241,000 236,000(E) 241,000 236,000(E) 
+SPPIR288 --A PIRATININGA 2 - 88 kV (A)                     88 1/Jan  31/Dez  520,671 500,782(E) 510,000 497,000(E) 510,000 497,000(E) 510,000 497,000(E) 
+SPPRI -88    PIRITUBA - 88 kV (A)                          88 1/Jan  30/Jun  255,695 284,000(E) - - - - - - 
+SPPRI -88    PIRITUBA - 88 kV (A)                          88 1/Jul  31/Dez  244,300(A) 284,000(E) - - - - - - 
+SPPRI -88    PIRITUBA - 88 kV (A)                          88 1/Jan  31/Dez  - - 250,000(A) 270,000(E) 250,000 270,000(E) 250,000 270,000(E)  
+ 
+CUST -2002-121-40 – ELETROPAULO                                           
+Contrato assinado digitalmente  
+8 Ponto de Conexão  Período de 
+Contratação  MUST - 2025  MUST - 2026  MUST - 2027  MUST - 2028  
+Cód ONS¹  Instalação  Tensão 
+(kV) De Até Ponta 
+(MW)  Fora 
+Ponta 
+(MW)  Ponta 
+(MW)  Fora 
+Ponta 
+(MW)  Ponta 
+(MW)  Fora 
+Ponta 
+(MW)  Ponta 
+(MW)  Fora 
+Ponta 
+(MW)  
+SPRRF -88    RAM REBERT F - 88 kV (A)                      88 1/Jan  31/Dez  664,956 666,862(E) 664,000 666,000(E) 664,000 666,000(E) 664,000 666,000(E) 
+SPSUL -88    SUL - 88 kV (A)                               88 1/Jan  31/Dez  954,613 941,171(E) 938,000 940,000(E) 938,000 940,000(E) 938,000 940,000(E) 
+ 
+(A) - MUST reduzidos de forma NÃO ONEROSA (limite até 10%) conforme regulamentação vigente.  
+ 
+(B) - Os valores de MUST solicitados neste ponto de conexão, no período de 2026 a 2028, devem permanecer limitados a 302,000 MW, no  horário fora de ponta, 
+condicionados a um fator de potência mínimo de 0,95, desconsiderando a parcela d e confiabilidade declarada pela ENEL SP nesse ponto de contratação e a não 
+violação da capacidade de carregamento de longa duração da LT 440 kV Bom Jardim - Fernão Dias, na transformação 500/345 kV da SE Poços de Caldas e da 
+LT 230 kV Taubaté - São José do s Campos.  Os valores poderão ser atendidos sem ressalvas após a implantação das seguintes obras: a) substituição de 
+equipamentos terminais e troca da proteção de barras no pátio de 440 kV da SE Bom Jardim, autorizada à CTEEP pelo Despacho AN EEL nº 386/202 1, com prazo 
+contratual para fevereiro de 2025 e; b) LT 230 kV Taubaté – São José dos Campos C2, obra autorizada à CTEEP pela ReA ANEEL nº 14.861/2023, com prazo 
+contratual para setembro de 2026 e; c) substituição do transformador 500/345 kV da SE Poços de  Caldas, obra autorizada à ELETROBRAS pela ReA ANEEL nº 
+10.505/2021, com prazo contratual para 08 março de 2024 e previsto atualmente pela Transmissora para 30 de abril de 2025 (SIG ET/ANEEL).  
+ 
+(C) - O atendimento aos valores de MUST solicitados neste ponto de conexão, no período de 2025 a 2028, no horário fora de ponta, fica condicionado a um fator de 
+potência mínimo de 0,98, desconsiderando a parcela de confiabilidade declarada pela ENEL SP nesse ponto de contratação e a nã o violação da capacidade de 
+carregame nto de longa duração da LT 440 kV Bom Jardim - Fernão Dias, na transformação 500/345 kV da SE Poços de Caldas e da LT 230 kV Taubaté - São 
+José dos Campos. Os valores poderão ser atendidos sem ressalvas após a implantação das seguintes obras: a) substituiç ão de equipamentos terminais e troca 
+da proteção de barras no pátio de 440 kV da SE Bom Jardim, autorizada à CTEEP pelo Despacho ANEEL nº 386/2021, com prazo cont ratual para fevereiro de 
+2025 e; b) LT 230 kV Taubaté – São José dos Campos C2, obra autorizad a à CTEEP pela ReA ANEEL nº 14.861/2023, com prazo contratual para setembro de 
+2026 e; c) substituição do transformador 500/345 kV da SE Poços de Caldas, obra autorizada à ELETROBRAS pela ReA ANEEL nº 10. 505/2021, com prazo 
+contratual para 08 de março de 2 024 e previsto atualmente pela Transmissora para 30 de abril de 2025 (SIGET/ANEEL).  
+ 
+ 
+(D) - O atendimento ao valor de MUST solicitado neste ponto de conexão, no ano de 2025, no horário fora de ponta, fica condicionado  a um fator de potência mínimo 
+de 0,95, desconsiderando a parcela de confiabilidade declarada pela ENEL SP nesse ponto de contrat ação e a não violação da capacidade de carregamento de 
+longa duração da LT 440 kV Bom Jardim - Fernão Dias, na transformação 500/345 kV da SE Poços de Caldas e da LT 230 kV Taubaté - São José dos Campos.  
+Os valores poderão ser atendidos sem ressalvas após  a implantação das seguintes obras: a) substituição de equipamentos terminais e troca da proteção de barras 
+no pátio de 440 kV da SE Bom Jardim, autorizada à CTEEP pelo Despacho ANEEL nº 386/2021, com prazo contratual para fevereiro de 2025 e; b) LT 230 kV  
+Taubaté – São José dos Campos C2, obra autorizada à CTEEP pela ReA ANEEL nº 14.861/2023, com prazo contratual para setembro de 2026 e; c) substituição 
+do transformador 500/345 kV da SE Poços de Caldas, obra autorizada à ELETROBRAS pela ReA ANEEL nº 10.505 /2021, com prazo contratual para 08 março 
+de 2024 e previsto atualmente pela Transmissora para 30 de abril de 2025 (SIGET/ANEEL).  
+ 
+(E) - O atendimento aos valores de MUST solicitados neste ponto de conexão, no período de 2025 a 2028, no horário fora de ponta, fica condicionado a um fator de  
+ 
+CUST -2002-121-40 – ELETROPAULO                                           
+Contrato assinado digitalmente  
+9 potência mínimo de 0,95, desconsiderando a parcela de confiabilidade declarada pela ENEL SP nesse ponto de contratação e a nã o violação da capacidade de 
+carregamento de longa duração da LT 440 kV Bom Jardim - Fernão Dias, na  transformação 500/345 kV da SE Poços de Caldas e da LT 230 kV Taubaté - São 
+José dos Campos.  Os valores poderão ser atendidos sem ressalvas após a implantação das seguintes obras: a) substituição de e quipamentos terminais e troca 
+da proteção de barras no  pátio de 440 kV da SE Bom Jardim, autorizada à CTEEP pelo Despacho ANEEL nº 386/2021, com prazo contratual para fevereiro de 
+2025 e; b) LT 230 kV Taubaté – São José dos Campos C2, obra autorizada à CTEEP pela ReA ANEEL nº 14.861/2023, com prazo contratual  para setembro de 
+2026 e; c) substituição do transformador 500/345 kV da SE Poços de Caldas, obra autorizada à ELETROBRAS pela ReA ANEEL nº 10. 505/2021, com prazo 
+contratual para 08 de março de 2024 e previsto atualmente pela Transmissora para 30 de abril de 2025 (SIGET/ANEEL).  
+ 
+ 
+(F) - No ponto de conexão EDGARD SOUZA 88 kV, a USUÁRIA declarou para os anos de 2026, 2027 e 2028 o montante de 348,000 MW no perí odo fora ponta.  
+ 
+(G) - O atendimento aos valores de MUST solicitados neste ponto de conexão, no período de 2 025 a 2028, nos horários de ponta e fora de ponta, fica condicionado 
+a um fator de potência mínimo de 0,98, desconsiderando a parcela de confiabilidade declarada pela ENEL SP nesse ponto de cont ratação e a não violação da 
+capacidade de carregamento de long a duração da LT 440 kV Bom Jardim - Fernão Dias, na transformação 500/345 kV da SE Poços de Caldas e da LT 230 kV 
+Taubaté - São José dos Campos. Os valores poderão ser atendidos sem ressalvas após a implantação das seguintes obras: a) substituição d e equip amentos 
+terminais e troca da proteção de barras no pátio de 440 kV da SE Bom Jardim, autorizada à CTEEP pelo Despacho ANEEL nº 386/20 21, com prazo contratual 
+para fevereiro de 2025 e; b) LT 230 kV Taubaté – São José dos Campos C2, obra autorizada à CTEEP p ela ReA ANEEL nº 14.861/2023, com prazo contratual 
+para setembro de 2026 e; c) substituição do transformador 500/345 kV da SE Poços de Caldas, obra autorizada à ELETROBRAS pela  ReA ANEEL nº 10.505/2021, 
+com prazo contratual para 08 de março de 2024 e previ sto atualmente pela Transmissora para 30 de abril de 2025 (SIGET/ANEEL).  
+ 
+ 
+ 
+Tabela 02 - MUST para os anos de 2025 a 2028 - SE  Icon Realty Cajamar II 138 kV  
+Considerando as novas instalações de transmissão previstas que permitem a inserção ou a alteração d e pontos de conexão da USUÁRIA conforme a Cláusula 3ª do presente Aditivo  
+ 
+Ponto de Conexão  Período de 
+Contratação  MUST - 2025  MUST - 2026  MUST - 2027  MUST - 2028  
+Cód ONS¹  Instalação  Tensão 
+(kV) De Até Ponta 
+(MW)  Fora 
+Ponta 
+(MW)  Ponta 
+(MW)  Fora 
+Ponta 
+(MW)  Ponta 
+(MW)  Fora 
+Ponta 
+(MW)  Ponta 
+(MW)  Fora 
+Ponta 
+(MW)  
+SPICO2138 -A ICON CAJAMAR II138kVA                         138 1/Jan  31/Dez  6,750 6,750 8,100(A) 8,100(A) 6,075(A) 6,075(A) 6,075 6,075 
+ 
+(A) - MUST reduzidos de forma NÃO ONEROSA (limite até 10%) conforme regulamentação vigente.  
+ 
+ 
+ 
+ 
+ 
+  
+ 
+CUST -2002-121-40 – ELETROPAULO                                           
+Contrato assinado digitalmente  
+10  
+Tabela 03 - MUST para os anos de 2025 a 2028 - SE REC VIII 138 kV  
+Considerando as novas instalações de transmissão previstas que permitem a inserção ou a alteração de pontos de conexão da USU ÁRIA conforme a Cláusula 3ª do presente Aditivo  
+ 
+Ponto de Conexão  Período de 
+Contratação  MUST - 2025  MUST - 2026  MUST - 2027  MUST - 2028  
+Cód ONS¹  Instalação  Tensão 
+(kV) De Até Ponta 
+(MW)  Fora 
+Ponta 
+(MW)  Ponta 
+(MW)  Fora 
+Ponta 
+(MW)  Ponta 
+(MW)  Fora 
+Ponta 
+(MW)  Ponta 
+(MW)  Fora 
+Ponta 
+(MW)  
+SPREC8138 -A REC VIII138kVA                                138 1/Jan  30/Jun  5,670 5,670 - - - - - - 
+SPREC8138 -A REC VIII138kVA                                138 1/Jul  31/Dez  5,103(A) 5,103(A) - - - - - - 
+SPREC8138 -A REC VIII138kVA                                138 1/Jan  31/Dez  - - 6,075(A) 6,075(A) 6,750 6,750 6,750 6,750 
+ 
+(A) - MUST reduzidos de forma NÃO ONEROSA (limite até 10%) conforme regulamentação vigente.  
+ 
+ 
+ 
+ 
+Tabela 04 - MUST para os anos de 2025 a 2028 - SE MIGUEL REALE 345/88 kV  
+Considerando as novas instalações de transmissão previstas que permitem a inserção ou a alteração de pontos de conexão da USU ÁRIA conforme a Cláusula 3ª do presente Aditivo  
+ 
+Ponto de Conexão  Período de 
+Contratação  MUST - 2025  MUST - 2026  MUST - 2027  MUST - 2028  
+Cód ONS¹  Instalação  Tensão 
+(kV) De Até Ponta 
+(MW)  Fora 
+Ponta 
+(MW)  Ponta 
+(MW)  Fora 
+Ponta 
+(MW)  Ponta 
+(MW)  Fora 
+Ponta 
+(MW)  Ponta 
+(MW)  Fora 
+Ponta 
+(MW)  
+SPMRE -88--A MIGUEL REALE - 88 kV (A)                      88 1/Jan  30/Jun  352,075 340,545(C) - - - - - - 
+SPMRE -88--A MIGUEL REALE - 88 kV (A)                      88 1/Jul  31/Dez  316,868(A) 306,491(A) 
+(C) - - - - - - 
+SPMRE -88--A MIGUEL REALE - 88 kV (A)                      88 1/Jan  31/Dez  - - 340,257(A) 347,864(C) 340,257 347,864(C) 340,257 347,864(C) 
+SPSUL -88    SUL - 88 kV (A)                               88 1/Jan  31/Dez  954,613 941,171(B) 728,905 715,194 699,000(A) 703,000(A) 588,905 575,194 
+ 
+(A) - MUST reduzidos de forma NÃO ONEROSA (limite até 10%) conforme regulamentação vigente.  
+ 
+(B) - O atendimento ao valor de MUST solicitado neste ponto de conexão, no ano de 2025, no horário fora de ponta, fica condicionado  a um fator de potência mínimo de 
+0,95, desconsiderando a parcela de confiabilidade declarada pela ENEL SP nesse ponto de con tratação e a não violação da capacidade de carregamento de longa duração 
+da LT 440 kV Bom Jardim - Fernão Dias, na transformação 500/345 kV da SE Poços de Caldas e da LT 230 kV Taubaté - São José dos Campos. Os valores poderão ser 
+atendidos sem ressalvas a pós a implantação das seguintes obras: a) substituição de equipamentos terminais e troca da proteção de barras no pátio de 44 0 kV da SE Bom 
+Jardim, autorizada à CTEEP pelo Despacho ANEEL nº 386/2021, com prazo contratual para fevereiro de 2025 e; b) LT 230  kV Taubaté – São José dos Campos C2, obra  
+ 
+CUST -2002-121-40 – ELETROPAULO                                           
+Contrato assinado digitalmente  
+11 autorizada à CTEEP pela ReA ANEEL nº 14.861/2023, com prazo contratual para setembro de 2026 e; c) substituição do transforma dor 500/345 kV da SE Poços de 
+Caldas, obra autorizada à ELETROBRAS pela ReA ANEEL nº 10. 505/2021, com prazo contratual para 08 março de 2024 e previsto atualmente pela Transmissora para 
+30 de abril de 2025 (SIGET/ANEEL).  
+ 
+(C) - O atendimento aos valores de MUST solicitados neste ponto de conexão, no período de 2025 a 2028, no horário fora de ponta, fica condicionado a um fator de 
+potência mínimo de 0,95, desconsiderando a parcela de confiabilidade declarada pela ENEL SP nesse ponto de contratação e a nã o violação da capacidade de 
+carregamento de longa duração da LT 440 kV Bom Jardim - Fernão D ias, na transformação 500/345 kV da SE Poços de Caldas e da LT 230 kV Taubaté - São José dos 
+Campos. Os valores poderão ser atendidos sem ressalvas após a implantação das seguintes obras: a) substituição de equipamento s terminais e troca da proteção de 
+barras no pátio de 440 kV da SE Bom Jardim, autorizada à CTEEP pelo Despacho ANEEL nº 386/2021, com prazo contratual para fevere iro de 2025 e; b) LT 230 kV 
+Taubaté – São José dos Campos C2, obra autorizada à CTEEP pela ReA ANEEL nº 14.861/2023, com prazo cont ratual para setembro de 2026 e; c) substituição do 
+transformador 500/345 kV da SE Poços de Caldas, obra autorizada à ELETROBRAS pela ReA ANEEL nº 10.505/2021, com prazo contrat ual para 08 de março de 2024 
+e previsto atualmente pela Transmissora para 30 de abril de 2025 (SIGET/ANEEL).  
+ 
+Tabela 05 - MUST para os anos de 2025 a 2028 - SE SÃO CAETANO DO SUL 345/88 kV  
+Considerando as novas instalações de transmissão previstas que permitem a inserção ou a alteração de pontos de conexão da USU ÁRIA conforme a Cláus ula 3ª do presente Aditivo  
+ 
+Ponto de Conexão  Período de 
+Contratação  MUST - 2025  MUST - 2026  MUST - 2027  MUST - 2028  
+Cód ONS¹  Instalação  Tensão 
+(kV) De Até Ponta 
+(MW)  Fora 
+Ponta 
+(MW)  Ponta 
+(MW)  Fora 
+Ponta 
+(MW)  Ponta 
+(MW)  Fora 
+Ponta 
+(MW)  Ponta 
+(MW)  Fora 
+Ponta 
+(MW)  
+SPMRE -88--A MIGUEL REALE - 88 kV (A)                      88 1/Jan  30/Jun  282,185 279,892(D) - - - - - - 
+SPMRE -88--A MIGUEL REALE - 88 kV (A)                      88 1/Jul  31/Dez  253,967(A) 251,903(A) 
+(D) - - - - - - 
+SPMRE -88--A MIGUEL REALE - 88 kV (A)                      88 1/Jan  31/Dez  - - 340,257 347,864(D) 340,257 347,864(D) 340,257 347,864(D) 
+SPSCDS88 --A S.CAETANO SUL88kVA                            88 1/Jan  31/Dez  - - 300,000 300,000(B) 300,000 265,000 300,000 265,000 
+SPSUL -88    SUL - 88 kV (A)                               88 1/Jan  31/Dez  954,613 941,171(C) 728,905 715,194 669,000(A) 675,000(A) 588,905 575,194 
+ 
+(A) - MUST reduzidos de forma NÃO ONEROSA (limite até 10%) conforme regulamentação vigente.  
+ 
+(B) - O atendimento ao valor de MUST solicitado neste ponto de conexão, no ano de 2026, no horário fora de ponta, fica condicionado  a um fator de potência mínimo de 
+0,95 e a não violação da capacidade de carregamento de longa duração da LT 440 kV  Bom Jardim - Fernão Dias, na transformação 500/345 kV da SE Poços de Caldas 
+e da LT 230 kV Taubaté - São José dos Campos. Os valores poderão ser atendidos sem ressalvas após a implantação das seguintes obras: a) substituição d e 
+equipamentos terminais e tr oca da proteção de barras no pátio de 440 kV da SE Bom Jardim, autorizada à CTEEP pelo Despacho ANEEL nº 386/2021, com prazo 
+contratual para fevereiro de 2025 e; b) LT 230 kV Taubaté – São José dos Campos C2, obra autorizada à CTEEP pela ReA ANEEL nº 14.86 1/2023, com prazo contratual 
+para setembro de 2026 e; c) substituição do transformador 500/345 kV da SE Poços de Caldas, obra autorizada à ELETROBRAS pela  ReA ANEEL nº 10.505/2021, com 
+prazo contratual para 08 de março de 2024 e previsto atualmente pela Tr ansmissora para 30 de abril de 2025 (SIGET/ANEEL).  
+ 
+(C) - O atendimento ao valor de MUST solicitado neste ponto de conexão, no ano de 2025, no horário fora de ponta, fica condicionado  a um fator de potência mínimo de  
+ 
+CUST -2002-121-40 – ELETROPAULO                                           
+Contrato assinado digitalmente  
+12 0,95, desconsiderando a parcela de conf iabilidade declarada pela ENEL SP nesse ponto de contratação e a não violação da capacidade de carregamento de longa duração 
+da LT 440 kV Bom Jardim - Fernão Dias, na transformação 500/345 kV da SE Poços de Caldas e da LT 230 kV Taubaté - São José dos Camp os. Os valores poderão ser 
+atendidos sem ressalvas após a implantação das seguintes obras: a) substituição de equipamentos terminais e troca da proteção  de barras no pátio de 440 kV da SE Bom 
+Jardim, autorizada à CTEEP pelo Despacho ANEEL nº 386/2021, com prazo contratual para fevereiro de 2025 e; b) LT 230 kV Taubaté – São José dos Campos C2, obra 
+autorizada à CTEEP pela ReA ANEEL nº 14.861/2023, com prazo contratual para setembro de 2026 e; c) substituição do transforma dor 500/345 kV da SE Poços de 
+Caldas , obra autorizada à ELETROBRAS pela ReA ANEEL nº 10.505/2021, com prazo contratual para 08 março de 2024 e previsto atualment e pela Transmissora para 
+30 de abril de 2025 (SIGET/ANEEL).  
+ 
+(D) - O atendimento aos valores de MUST solicitados neste ponto de conexão, no período de 2025 a 2028, no horário fora de ponta, fi ca condicionado a um fator de 
+potência mínimo de 0,95, desconsiderando a parcela de confiabilidade declarada pela ENEL SP nes se ponto de contratação e a não violação da capacidade de 
+carregamento de longa duração da LT 440 kV Bom Jardim - Fernão Dias, na transformação 500/345 kV da SE Poços de Caldas e da LT 230 kV Taubaté - São José dos 
+Campos. Os valores poderão ser atendidos sem ressalvas após a implantação das seguintes obras: a) substituição de equipamentos terminais e troca da proteção de 
+barras no pátio de 440 kV da SE Bom Jardim, autorizada à CTEEP pelo Despacho ANEEL nº 386/2021, com prazo contratual para fev ereiro de 20 25 e; b) LT 230 kV 
+Taubaté – São José dos Campos C2, obra autorizada à CTEEP pela ReA ANEEL nº 14.861/2023, com prazo contratual para setembro de 2026 e; c) substituição do 
+transformador 500/345 kV da SE Poços de Caldas, obra autorizada à ELETROBRAS pela R eA ANEEL nº 10.505/2021, com prazo contratual para 08 de março de 2024 
+e previsto atualmente pela Transmissora para 30 de abril de 2025 (SIGET/ANEEL).  
+ 
+Tabela 06 - MUST para os anos de 2025 a 2028 - SE SÃO MIGUEL 345/88 kV  
+Considerando as novas instalaçõe s de transmissão previstas que permitem a inserção ou a alteração de pontos de conexão da USUÁRIA conforme a Cláusula 3ª do p resente Aditivo  
+ 
+Ponto de Conexão  Período de 
+Contratação  MUST - 2025  MUST - 2026  MUST - 2027  MUST - 2028  
+Cód ONS¹  Instalação  Tensão 
+(kV) De Até Ponta 
+(MW)  Fora 
+Ponta 
+(MW)  Ponta 
+(MW)  Fora 
+Ponta 
+(MW)  Ponta 
+(MW)  Fora 
+Ponta 
+(MW)  Ponta 
+(MW)  Fora 
+Ponta 
+(MW)  
+SPLES -88    LESTE - 88 kV (A)                             88 1/Jan  31/Dez  751,682 716,961(C) 552,516 517,100(C) 552,516(A) 
+(C) 517,100(A) 
+(C) 552,516 517,100(C) 
+SPNOR -88    NORTE - 88 kV (A)                             88 1/Jan  31/Dez  620,811 620,275(D) 388,427 387,881 422,000(A) 405,000(A) 388,427 387,881 
+SPRRF -88    RAM REBERT F - 88 kV (A)                      88 1/Jan  31/Dez  664,956 666,862(C) 576,255 578,199(A) 
+(C) 576,255 578,199(A) 
+(C) 576,255 578,199(C) 
+SPSMIG88 --A SAO MIGUEL88kVA                               88 1/Jan  31/Dez  - - 550,000 550,000(B) 550,000 550,000(B) 545,000 540,000(B) 
+ 
+(A) - MUST reduzidos de forma NÃO ONEROSA (limite até 10%) conforme regulamentação vigente.  
+ 
+(B) - O atendimento aos valores de MUST solicitados neste ponto de conexão, no período de 2026 a 2028, no horário fora de ponta, fi ca condicionado a um fator de 
+potência mínimo de 0,95 e a não violação da capacidade de carregamento de longa duração da LT 4 40 kV Bom Jardim - Fernão Dias, na transformação 500/345 kV da 
+SE Poços de Caldas e da LT 230 kV Taubaté - São José dos Campos. Os valores poderão ser atendidos sem ressalvas após a implantação das seguintes obras: a) 
+substituição de equipamentos terminais  e troca da proteção de barras no pátio de 440 kV da SE Bom Jardim, autorizada à CTEEP pelo Despacho ANEEL nº 386/2021, 
+com prazo contratual para fevereiro de 2025 e; b) LT 230 kV Taubaté – São José dos Campos C2, obra autorizada à CTEEP pela ReA ANEEL nº 14.861/2023, com prazo 
+contratual para setembro de 2026 e; c) substituição do transformador 500/345 kV da SE Poços de Caldas, obra autorizada à ELET ROBRAS pela ReA ANEEL nº  
+ 
+CUST -2002-121-40 – ELETROPAULO                                           
+Contrato assinado digitalmente  
+13 10.505/2021, com prazo contratual para 08 de março de 2024 e previsto atualmente pe la Transmissora para 30 de abril de 2025 (SIGET/ANEEL).  
+ 
+(C) - O atendimento aos valores de MUST solicitados neste ponto de conexão, no período de 2025 a 2028, no horário fora de ponta, fi ca condicionado a um fator de 
+potência mínimo de 0,95, desconsideran do a parcela de confiabilidade declarada pela ENEL SP nesse ponto de contratação e a não violação da capacidade de 
+carregamento de longa duração da LT 440 kV Bom Jardim - Fernão Dias, na transformação 500/345 kV da SE Poços de Caldas e da LT 230 kV Taubaté  - São José dos 
+Campos. Os valores poderão ser atendidos sem ressalvas após a implantação das seguintes obras: a) substituição de equipamento s terminais e troca da proteção de 
+barras no pátio de 440 kV da SE Bom Jardim, autorizada à CTEEP pelo Despacho ANE EL nº 386/2021, com prazo contratual para fevereiro de 2025 e; b) LT 230 kV 
+Taubaté – São José dos Campos C2, obra autorizada à CTEEP pela ReA ANEEL nº 14.861/2023, com prazo contratual para setembro de 2026 e; c) substituição do 
+transformador 500/345 kV d a SE Poços de Caldas, obra autorizada à ELETROBRAS pela ReA ANEEL nº 10.505/2021, com prazo contratual para 08 de março de 20 24 
+e previsto atualmente pela Transmissora para 30 de abril de 2025 (SIGET/ANEEL).  
+ 
+(D) - O atendimento ao valor de MUST solicitado  neste ponto de conexão, no ano de 2025, no horário fora de ponta, fica condicionado a um fator de potência mínimo de 
+0,95, desconsiderando a parcela de confiabilidade declarada pela ENEL SP nesse ponto de contratação e a não violação da capac idade de carr egamento de longa duração 
+da LT 440 kV Bom Jardim - Fernão Dias, na transformação 500/345 kV da SE Poços de Caldas e da LT 230 kV Taubaté - São José dos Campos. Os valores poderão ser 
+atendidos sem ressalvas após a implantação das seguintes obras: a) subst ituição de equipamentos terminais e troca da proteção de barras no pátio de 440 kV da SE Bom 
+Jardim, autorizada à CTEEP pelo Despacho ANEEL nº 386/2021, com prazo contratual para fevereiro de 2025 e; b) LT 230 kV Tauba té – São José dos Campos C2, obra 
+autorizada à CTEEP pela ReA ANEEL nº 14.861/2023, com prazo contratual para setembro de 2026 e; c) substituição do transformador 500/345 kV da SE Poços de 
+Caldas, obra autorizada à ELETROBRAS pela ReA ANEEL nº 10.505/2021, com prazo contratual para 08 março de  2024 e previsto atualmente pela Transmissora para 
+30 de abril de 2025 (SIGET/ANEEL).  
+ 
+Tabela 07 - MUST para os anos de 2025 a 2028 - Milton Fornasaro  
+Considerando as novas instalações de transmissão previstas que permitem a inserção ou a alteração de pont os de conexão da USUÁRIA conforme a Cláusula 3ª do presente Aditivo  
+ 
+Ponto de Conexão  Período de 
+Contratação  MUST - 2025  MUST - 2026  MUST - 2027  MUST - 2028  
+Cód ONS¹  Instalação  Tensão 
+(kV) De Até Ponta 
+(MW)  Fora 
+Ponta 
+(MW)  Ponta 
+(MW)  Fora 
+Ponta 
+(MW)  Ponta 
+(MW)  Fora 
+Ponta 
+(MW)  Ponta 
+(MW)  Fora 
+Ponta 
+(MW)  
+SPMFO -88    M. FORNASARO - 88 kV (A)                      88 1/Jan  31/Dez  759,893(B) 795,939(B) 749,000(A) 
+(B) 811,000(A) 
+(B) 749,000(A) 
+(B) 811,000(A) 
+(B) 749,000(B) 793,000(B) 
+ 
+(A) - MUST reduzidos de forma NÃO ONEROSA (limite até 10%) conforme regulamentação vigente.  
+ 
+(B) - O atendimento aos valores de MUST solicitados neste ponto de conexão, no período de 2025 a 2028, nos horários de ponta e fora  de ponta, fica condicionado a um 
+fator de potência mínimo de 0,98, desconsiderando a parcela de confiabilidade declarada pel a ENEL SP nesse ponto de contratação e a não violação da capacidade de 
+carregamento de longa duração da LT 440 kV Bom Jardim - Fernão Dias, na transformação 500/345 kV da SE Poços de Caldas e da LT 230 kV Taubaté - São José dos 
+Campos. Os valores poderão s er atendidos sem ressalvas após a implantação das seguintes obras: a) substituição de equipamentos terminais e troca da prote ção de 
+barras no pátio de 440 kV da SE Bom Jardim, autorizada à CTEEP pelo Despacho ANEEL nº 386/2021, com prazo contratual para fe vereiro de 2025 e; b) LT 230 kV 
+Taubaté – São José dos Campos C2, obra autorizada à CTEEP pela ReA ANEEL nº 14.861/2023, com prazo contratual para setembro de 2026 e; c) substituição do  
+ 
+CUST -2002-121-40 – ELETROPAULO                                           
+Contrato assinado digitalmente  
+14 transformador 500/345 kV da SE Poços de Caldas, obra autorizada à ELET ROBRAS pela ReA ANEEL nº 10.505/2021, com prazo contratual para 08 de março de 2024 
+e previsto atualmente pela Transmissora para 30 de abril de 2025 (SIGET/ANEEL).  
+ 
+ 
+ 
+ 
+ 
+ 
+Tabela A.1 - Pontos de Conexão com Montantes Contratados para Aumento de Confiabilidad e em 2025  
+ 
+Ponto de Conexão com MUST Redundantes  Ponto de Conexão de Origem dos MUST Redundantes  
+Cód ONS¹  Instalação  Tensão  Cód ONS¹  Instalação  Tensão  
+SPANH -88--A ANHANGUERA - 88 kV (C)                        88 SPPRI -88    PIRITUBA - 88 kV (A)                          88 
+SPBAN -34,5  BANDEIRANTES - 34,5 kV (A)                    34 SPMRE -88--A MIGUEL REALE - 88 kV (A)                      88 
+SPCTR -20    CENTRO -CTR - 20 kV (A)                        20 SPCTR -88    CENTRO -CTR - 88 kV (A)                        88 
+SPCTR -88    CENTRO -CTR - 88 kV (A)                        88 SPMRE -88--A MIGUEL REALE - 88 kV (A)                      88 
+SPBANC88 --A ECH BANDEIRAN - 88 kV (A)                     88 SPPIR288 --A PIRATININGA 2 - 88 kV (A)                     88 
+SPESO -88    EDGARD SOUZA - 88 kV (A)                      88 SPANH -88--A ANHANGUERA - 88 kV (C)                        88 
+SPEMG -138   EMBU -GUACU - 138 kV (C)                       138 SPPIR288 --A PIRATININGA 2 - 88 kV (A)                     88 
+SPJAN -88--A JANDIRA - 88 kV (A)                           88 SPANH -88--A ANHANGUERA - 88 kV (C)                        88 
+SPJAN -88--A JANDIRA - 88 kV (A)                           88 SPESO -88    EDGARD SOUZA - 88 kV (A)                      88 
+SPLES -88    LESTE - 88 kV (A)                             88 SPNOR -88    NORTE - 88 kV (A)                             88 
+SPMFO -88    M. FORNASARO - 88 kV (A)                      88 SPBANC88 --A ECH BANDEIRAN - 88 kV (A)                     88 
+SPMRE -20    MIGUEL REALE - 20 kV (A)                      20 SPMRE -88--A MIGUEL REALE - 88 kV (A)                      88 
+SPMRE -88--A MIGUEL REALE - 88 kV (A)                      88 SPRRF -88    RAM REBERT F - 88 kV (A)                      88 
+SPNOD -88    NORDESTE - 88 kV (A)                          88 SPNOR -88    NORTE - 88 kV (A)                             88 
+SPNOR -88    NORTE - 88 kV (A)                             88 SPCTR -88    CENTRO -CTR - 88 kV (A)                        88 
+SPPRE -138   PARELHEIROS - 138 kV (A)                      138 SPPIR288 --A PIRATININGA 2 - 88 kV (A)                     88 
+SPPIR -88    PIRATININGA - 88 kV (A)                       88 SPSUL -88    SUL - 88 kV (A)                               88 
+SPPIR288 --A PIRATININGA 2 - 88 kV (A)                     88 SPBANC88 --A ECH BANDEIRAN - 88 kV (A)                     88 
+SPPRI -88    PIRITUBA - 88 kV (A)                          88 SPANH -88--A ANHANGUERA - 88 kV (C)                        88 
+SPPRI -88    PIRITUBA - 88 kV (A)                          88 SPMFO -88    M. FORNASARO - 88 kV (A)                      88 
+SPRRF -88    RAM REBERT F - 88 kV (A)                      88 SPLES -88    LESTE - 88 kV (A)                             88 
+SPSUL -88    SUL - 88 kV (A)                               88 SPRRF -88    RAM REBERT F - 88 kV (A)                      88 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+CUST -2002-121-40 – ELETROPAULO                                           
+Contrato assinado digitalmente  
+15  
+Tabela A.4 - Pontos de Conexão com Montantes Contratados para Aumento de Confiabilidade em 2025  
+ - SE MIGUEL REALE 345/88 kV  
+ 
+Ponto de Conexão com MUST Redundantes  Ponto de Conexão de Origem dos MUST Redundantes  
+Cód ONS¹  Instalação  Tensão  Cód ONS¹  Instalação  Tensão  
+SPMRE -88--A MIGUEL REALE - 88 kV (A)                      88 SPRRF -88    RAM REBERT F - 88 kV (A)                      88 
+SPSUL -88    SUL - 88 kV (A)                               88 SPRRF -88    RAM REBERT F - 88 kV (A)                      88 
+ 
+ 
+ 
+ 
+Tabela A.5 - Pontos de Conexão com Montantes Contratados para Aumento de Confiabilidade em 2025  
+ - SE SÃO CAETANO DO SUL 345/88 kV  
+ 
+Ponto de Conexão com MUST Redundantes  Ponto de Conexão de Origem dos MUST Redundantes  
+Cód ONS¹  Instalação  Tensão  Cód ONS¹  Instalação  Tensão  
+SPMRE -88--A MIGUEL REALE - 88 kV (A)                      88 SPRRF -88    RAM REBERT F - 88 kV (A)                      88 
+SPSUL -88    SUL - 88 kV (A)                               88 SPRRF -88    RAM REBERT F - 88 kV (A)                      88 
+ 
+ 
+ 
+ 
+Tabela A.6 - Pontos de Conexão com Montantes Contratados para Aumento de Confiabilidade em 2025  
+ - SE SÃO MIGUEL 345/88 kV  
+ 
+Ponto de Conexão com MUST Redundantes  Ponto de Conexão de Origem dos MUST Redundantes  
+Cód ONS¹  Instalação  Tensão  Cód ONS¹  Instalação  Tensão  
+SPLES -88    LESTE - 88 kV (A)                             88 SPSUL -88    SUL - 88 kV (A)                               88 
+SPNOR -88    NORTE - 88 kV (A)                             88 SPCTR -88    CENTRO -CTR - 88 kV (A)                        88 
+SPRRF -88    RAM REBERT F - 88 kV (A)                      88 SPLES -88    LESTE - 88 kV (A)                             88 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+CUST -2002-121-40 – ELETROPAULO                                           
+Contrato assinado digitalmente  
+16 Tabela A.7 - Pontos de Conexão com Montantes Contratados para Aumento de Confiabilidade em 2025  
+ - Milton Fornasaro  
+ 
+Ponto de Conexão com MUST Redundantes  Ponto de Conexão de Origem dos MUST Redundantes  
+Cód ONS¹  Instalação  Tensão  Cód ONS¹  Instalação  Tensão  
+SPMFO -88    M. FORNASARO - 88 kV (A)                      88 SPBANC88 --A ECH BANDEIRAN - 88 kV (A)                     88 
+ 
+OBS.:  
+(1) - Cód. ONS: identificação do Ponto de Conexão na Base de Dados do ONS.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

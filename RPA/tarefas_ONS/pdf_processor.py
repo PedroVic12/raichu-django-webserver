@@ -49,16 +49,22 @@ class PDFProcessor:
 
     def extrair_texto(self, paginas="all"):
         """Extrai texto das páginas especificadas"""
+        print(f"Texto: Tentando extrair páginas: {paginas}, Total de páginas no PDF: {self.num_paginas}")
         try:
             if paginas == "all":
-                paginas = range(1, self.num_paginas + 1)
+                paginas_a_processar = range(1, self.num_paginas + 1)
             elif isinstance(paginas, str) and '-' in paginas:
                 start, end = map(int, paginas.split('-'))
-                paginas = range(start, end + 1)
-            
+                paginas_a_processar = range(start, end + 1)
+            else:
+                paginas_a_processar = paginas # Assume it's already a list/iterable
+
             textos = []
-            for num in paginas:
+            for num in paginas_a_processar:
                 try:
+                    if num > self.num_paginas or num < 1:
+                        print(f"Aviso: Página {num} fora do range (1-{self.num_paginas}). Pulando.")
+                        continue
                     texto = self.reader.pages[num-1].extract_text()
                     if texto:
                         textos.append(f"--- Página {num} ---\n{texto}\n")
