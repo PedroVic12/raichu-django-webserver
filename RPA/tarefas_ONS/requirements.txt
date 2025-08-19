@@ -1,0 +1,10 @@
+streamlit
+pandas
+tabula-py
+PyPDF2
+python-dotenv
+google-generativeai
+openpyxl
+pytesseract
+pdf2image
+Pillow

@@ -135,17 +135,17 @@ path = "/home/pedrov12/Downloads"
     .from_pdf_camelot(rf"{path}/CUST-2002-123-41 - JAGUARI - RECON 2025-2028.pdf")
     .use_first_rows_as_header(n=2)
     .split_columns_by_delimiter("^")
-    .standardize_columns({
-        "Ponto de Conexão Cód ONS¹": "Cód ONS",
-        "Ponto de Conexão Instalação": "Instalação",
-        "Ponto de Conexão Tensão (kV)": "Tensão (kV)",
-        "Período de Contratação De": "De",
-        "Período de Contratação Até": "Até",
-        "MUST - 2025 Ponta (MW) Valor": "Ponta 2025 Valor",
-        "MUST - 2025 Ponta (MW) Anotacao": "Ponta 2025 Anotacao",
-        "MUST - 2025 Fora Ponta (MW) Valor": "Fora Ponta 2025 Valor",
-        "MUST - 2025 Fora Ponta (MW) Anotacao": "Fora Ponta 2025 Anotacao",
-    })
+    # .standardize_columns({
+    #     "Ponto de Conexão Cód ONS¹": "Cód ONS",
+    #     "Ponto de Conexão Instalação": "Instalação",
+    #     "Ponto de Conexão Tensão (kV)": "Tensão (kV)",
+    #     "Período de Contratação De": "De",
+    #     "Período de Contratação Até": "Até",
+    #     "MUST - 2025 Ponta (MW) Valor": "Ponta 2025 Valor",
+    #     "MUST - 2025 Ponta (MW) Anotacao": "Ponta 2025 Anotacao",
+    #     "MUST - 2025 Fora Ponta (MW) Valor": "Fora Ponta 2025 Valor",
+    #     "MUST - 2025 Fora Ponta (MW) Anotacao": "Fora Ponta 2025 Anotacao",
+    # })
     .trim_spaces()
     .drop_duplicates()
     .export_excel("saida_final.xlsx")
